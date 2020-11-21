@@ -1,0 +1,6 @@
+name: "testmod"
+displayName: "Bomb Test Mod"
+author: "[royal]theangelurd[]"
+description: "[No real mod here. Just a unit test.]"
+version: "0"
+minGameVersion: 115
