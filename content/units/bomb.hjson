@@ -1,0 +1,47 @@
+type: LegsUnit
+drag: 0.1
+speed: 0.5
+health: 525
+hitSize: 27
+armor: 3
+range: 240
+rotateSpeed: 3
+immunities: [burning, melting]
+legCount: 4
+legLength: 35
+legPairOffset: 0
+legMoveSpace: 1.3
+legBaseOffset: 8
+legExtension: 0
+landShake: 0.2
+legSpeed: 0.3
+legLengthScl: 0.93
+rippleScale: 1
+hovering: true
+
+legSplashDamage: 0
+legSplashRange: 0
+
+allowLegStep: true
+visualElevation: 0.95
+groundLayer: 75
+
+weapons: [
+    {
+        name: bomb-weapon
+        top: true
+        shake: 1.3
+        reload: 46
+        recoil: 1.2
+        shootSound: artillery
+        x: 10
+        bullet: {
+            type: ArtilleryBulletType()
+            width: 16
+            height: 16
+            status: sapped
+            splashDamage: 26
+            splashDamageRadius: 21
+        }
+    },
+]
